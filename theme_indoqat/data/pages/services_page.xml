@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <template id="services_template" name="Our Services">
+            <t t-set="additional_title" t-valuef="Our Services"/>
+            <t t-set="project_ids"
+               t-value="request.env['website.projects'].search([('website_id', '=', request.website.id)])"/>
+
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure main__content-area-services">
+                    <section class="pb24 services-hero ">
+                        <div class="container  d-flex flex-column ">
+                            <div class="hero-bg d-flex flex-column align-items-center p-2 p-lg-4  gap-4 order-2 order-lg-1  ">
+                                <div class="bg-white tag p-2 rounded-4 d-flex justify-content-center align-items-center">
+                                    <h1 class="h4 m-0 text-center">
+                                        Our Services
+                                    </h1>
+                                </div>
+
+                                <div class="txt-hero text-center d-flex flex-column align-items-center gap-4  ">
+                                    <h2 class="h1" style="max-width: 878px;">
+                                        Collaborate with Indoqat and start your journey toward distinction and
+                                        sustainable success.
+                                    </h2>
+                                    <p class="display-6 para">
+                                        At Indoqat, we provide more than just exceptional services… we forge meaningful
+                                        partnerships built on a deep understanding of your needs.
+                                    </p>
+                                    <p class="display-6 para">
+                                        From development consulting and logistics services to digital transformation and
+                                        investment empowerment, we deliver smart, innovative solutions that drive your
+                                        business forward efficiently.
+                                    </p>
+                                </div>
+
+                                <div class="double-image overflow-hidden d-flex gap-5 justify-content-center justify-content-lg-between">
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                         class="left-globe position-absolute" loading="lazy"/>
+                                    <img src="/theme_indoqat/static/src/imgs/services/Hero-vector.png" alt="globe"
+                                         class="right-globe position-absolute d-none d-lg-block" loading="lazy"/>
+                                </div>
+                            </div>
+
+                            <div class="hero-photo order-1 order-lg-2   rounded-4 p-2">
+                                <img src="/theme_indoqat/static/src/imgs/services/Indoqat.png"
+                                     alt="Indoqat Green Wall"
+                                     class="rounded-4 h-100 w-100" loading="lazy"/>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="basic_services " t-if="project_ids">
+                        <div class="container pb80 pt80">
+                            <h1 class="display-1 text-center mt-5 mb96 bservices-title" style="font-weight:700;">
+                                <span class="text-primary">Our Basic</span>
+                                Services
+                            </h1>
+                            <t t-foreach="project_ids" t-as="project">
+                                <div class="row right-basics">
+                                    <span class="text-primary h1" t-out="project_index+1"/>
+                                    <div class="col-lg-6 col-xl-7">
+                                        <h3 class="text-dark h1" style="max-width:450px" t-field="project.title"/>
+                                    </div>
+                                    <p class="display-5 col-lg-6 col-xl-5" t-field="project.sub_title"/>
+                                    <div class="col-lg-6 col-xl-5 mb32 services_description"
+                                         t-field="project.desc"/>
+                                    <div class=" col-lg-6 col-xl-7 top-spacing pe-lg-4">
+                                        <img t-attf-src="/web/image/website.projects/{{project.id}}/website_image"
+                                             t-att-alt="project.title" class="w-100" loading="lazy"/>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+
+        <record id="services_page" model="theme.website.page">
+            <field name="view_id" ref="services_template"/>
+            <field name="is_published" eval="True"/>
+            <field name="url">/services</field>
+        </record>
+
+        <record id="services_menu" model="theme.website.menu">
+            <field name="name">Our Services</field>
+            <field name="url">/services</field>
+            <field name="sequence" type="int">20</field>
+        </record>
     </data>
 </odoo>
