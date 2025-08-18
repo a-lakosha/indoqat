@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template name="Indoqat Home" id="indoqat_home_page" inherit_id="website.homepage" active="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section class="pt120 pb120">
+                        <div class="container">
+                            <div class="row align-items-center gy-5 row-hero ">
+                                <div class="col-lg-6 col-md-12">
+                                    <h1 class="text-dark">
+
+                                        Pioneers of
+                                        <span class="text-primary">Sustainable Investment</span>
+                                        and Humanitarian Support
+                                    </h1>
+                                    <h2 class="text-dark mt-3 mb-4">
+                                        Towards a More Sustainable and Human Future
+                                    </h2>
+                                    <p class="h5 h-content pt-3">
+                                        Indoqat is a leading company in sustainable investment, committed to
+                                        developing innovative solutions that drive economic growth and
+                                        support humanitarian causes. 
+                                    </p>
+                                    <p class="h5 h-content pt-3">
+                                        We believe that innovation is the catalyst for progress and change,
+                                        and we are passionate about creating a tangible, positive impact on
+                                        individuals and communities. 
+                                    </p>
+                                    <div class="d-flex flex-column flex-lg-row gap-3 content-btn">
+                                        <button type="button"
+                                                class="btn btn-contact text-bg-primary text-nowrap text-center">Contact
+                                            Us
+                                        </button>
+                                        <button type="button" class="btn btn-about text-nowrap text-center">About Us
+                                        </button>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="hero-img position-relative">
+                                        <img src="\theme_vehicles\static\src\imgs\Rectangle 12.png"
+                                             alt="hero-img"
+                                             class="w-100"/>
+                                        <div class="hero-img-1 position-absolute">
+                                            <img src="\theme_vehicles\static\src\imgs\Polygon 1.svg"
+                                                 alt="hero-img"/>
+                                        </div>
+                                        <div class="position-absolute icon-hero">
+                                            <h1 class="display-4">05</h1>
+                                            <p class="h-content">Different Services</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt168 pb168">
+                        <div class="container ">
+                            <p class=" text-primary display-5 fw700 mb30">About Indoqat</p>
+                            <div class="d-flex flex-column flex-lg-row justify-content-between ">
+                                <div class="col-lg-6 col-md-12">
+                                    <h1 class="gray">We’re not just an investment company,
+                                        <span class="text-dark">but a partner on your journey of change. </span>
+                                    </h1>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <p class="content display-5 ms-lg-5 ">
+                                        We’re striving to create a more balanced world, where development and
+                                        humanity
+                                        go hand in hand, by empowering individuals, supporting organizations,
+                                        providing
+                                        intelligent consulting and developing integrated projects that foster
+                                        sustainability and economic growth. 
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row justify-content-between a ">
+                                <div class="col-lg-6 col-md-12 pl70">
+                                    <button type="button" class=" btn text-bg-primary text-nowrap m56">
+                                        Contact Us Now
+                                        <img src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                             alt="hero-img"
+                                             style="width: 16px; height: 16px; margin-left: 12px;"/>
+                                    </button>
+                                </div>
+                                <div class="col-lg-6 col-md-12 pl70">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                    <section class="pt168 pb168">
+                        <div class="container">
+                            <div class="row justify-content-between row-hero">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <p
+                                                class="text-600 display-2">
+                                            We shape the future with innovative services that create a
+                                            sustainable impact 
+                                        </p>
+                                        <p class="display-5 pt-2 w320 s2-heading">
+                                            We provide comprehensive and innovative solutions in
+                                            sustainability, logistics, business development, and investment
+                                            support to enable individuals and organizations to achieve lasting
+                                            and impactful results. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12  " style="margin-bottom:144px">
+                                    <div class="d-flex text-center justify-content-center justify-content-lg-end h-100">
+                                        <div
+                                                class="text-center bord">
+                                            <div class="text-center d-flex align-items-center justify-content-center flex-column">
+                                                <p class="display-1 text-600">05</p>
+                                                <p>Distinct Services</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt140">
+                            <div class="container">
+                                <div class="row gx-ms-4 gy-3 flex-warp flex-lg-nowrap card-oper ">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card  p-2 card-1">
+                                            <img
+                                                    src="\theme_vehicles\static\src\imgs\crad1.png"
+                                                    alt=""
+                                                    class="w-100 card-image"
+                                            />
+                                            <div class="card-body d-flex flex-column justify-content-between ">
+                                                <p class="card-title text-primary display-4 fw700">01</p>
+                                                <p
+                                                        class="text-dark display-4 fw700">Real Estate Development and
+                                                    Investment 
+                                                </p>
+                                                <p class="card-text"
+                                                   style="font-size: 16px; font-weight: 400; line-height: 150%;">
+                                                    Developing residential, commercial, and tourism projects based
+                                                    on sustainable design standards. Implementing Comprehensive
+                                                    management of the planning, construction, and operation
+                                                    stages. 
+                                                </p>
+
+                                                <button
+                                                        type="button"
+                                                        class="btn btn-primary more-btn"
+
+                                                >
+                                                    <a href="#" class="text-white " style="text-decoration: none;"
+                                                    >More
+                                                        <img
+                                                                src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                                                alt="hero-img"
+                                                                style="width: 16px; height: 16px; margin-left: 12px"
+                                                        />
+                                                    </a>
+                                                </button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card   p-2">
+                                            <img
+                                                    src="\theme_vehicles\static\src\imgs\crad2.png"
+                                                    alt="crad2"
+                                                    class="w-100 card-image"
+                                            />
+                                            <div class="card-body d-flex flex-column justify-content-between">
+                                                <p class="card-title text-primary display-4">02</p>
+                                                <p
+                                                        class="text-dark display-4 fw700">Renewable and Sustainable
+                                                    Energy
+                                                </p>
+                                                <p class="card-text"
+                                                   style="font-size: 18px; line-height: 150%;">
+                                                    Investing in solar energy projects and innovative environmental
+                                                    solutions.   
+                                                </p>
+
+                                                <button
+                                                        type="button"
+                                                        class="btn btn-primary more-btn"
+
+                                                >
+                                                    <a href="#" class=" text-white" style="text-decoration: none;"
+                                                    >More
+                                                        <img
+                                                                src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                                                alt="hero-img"
+                                                                style="width: 16px; height: 16px; margin-left: 12px"
+                                                        />
+                                                    </a>
+                                                </button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4  col-md-6">
+                                        <div class="card p-2">
+
+                                            <img
+                                                    src="\theme_vehicles\static\src\imgs\crad3.png"
+                                                    alt=""
+
+                                                    class="w-100 card-image"
+                                            />
+                                            <div class="card-body d-flex flex-column justify-content-between">
+                                                <p class="card-title text-primary display-4 fw700">03</p>
+                                                <p class="text-dark display-4 fw700">Smart Agriculture  
+                                                </p>
+                                                <p class="card-text"
+                                                   style="font-size: 18px; font-weight: 400; line-height: 150%;">
+                                                    Developing advanced farming projects for commercial and export
+                                                    purposes.   
+                                                </p>
+
+                                                <button
+                                                        type="button"
+                                                        class="btn btn-primary more-btn"
+
+                                                >
+                                                    <a href="#" class=" text-white" style="text-decoration: none;"
+                                                    >More
+                                                        <img
+                                                                src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                                                alt="hero-img"
+                                                                style="width: 16px; height: 16px; margin-left: 12px"
+                                                        />
+                                                    </a>
+                                                </button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 ">
+                                        <div class="card  p-2">
+
+                                            <img
+                                                    src="\theme_vehicles\static\src\imgs\crad3.png"
+                                                    alt=""
+
+                                                    class="w-100 card-image"
+                                            />
+                                            <div class="card-body d-flex flex-column justify-content-between">
+                                                <p class="card-title text-primary display-4 fw700">03</p>
+                                                <p
+                                                        class="text-dark display-4 fw700">Smart Agriculture  
+                                                </p>
+                                                <p class="card-text"
+                                                   style="font-size: 18px; font-weight: 400; line-height: 150%;">
+                                                    Developing advanced farming projects for commercial and export
+                                                    purposes.   
+                                                </p>
+
+                                                <button
+                                                        type="button"
+                                                        class="btn btn-primary more-btn"
+
+                                                >
+                                                    <a href="#" class=" text-white" style="text-decoration: none;"
+                                                    >More
+                                                        <img
+                                                                src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                                                alt="hero-img"
+                                                                style="width: 16px; height: 16px; margin-left: 12px"
+                                                        />
+                                                    </a>
+                                                </button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt120 pb168">
+                        <div class="container">
+                            <div class="text text d-flex justify-content-center align-items-center flex-column w-100 "
+                                 style="gap:40px">
+                                <p class="text-dark text-center display-2 fw700 heading-text">We Provide <span
+                                        class="text-primary">solutions
+                                </span> that drive meaningful change in Indonesian society.
+                                </p>
+                                <p class="text-center display-5 gray heading-text">We develop a wide range of
+                                    integrated solutions
+                                    designed to
+                                    empower individuals and organizations to foster sustainable growth in their
+                                    communities. 
+                                </p>
+                            </div>
+                            <div class="row g-4" style="padding-top:96px; ">
+                                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section (2).png"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                        <div class=" text-img ">
+                                            <p class="display-5 fw700">Building Mosques</p>
+                                            <p>We handle the design and development of mosques to ensure they meet the
+                                                highest standards of quality and sustainability. 
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section (6).png"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                        <div class="text-img ">
+                                            <p class="display-5 fw700">Well Drilling</p>
+                                            <p>We provide clean water to underserved areas through well drilling
+                                                projects that we oversee and manage.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section.png"
+                                                alt=""
+                                                class="w-100"
+                                        />
+
+                                        <div class="text-img">
+                                            <p class="display-5 fw700">Healthcare Centers Development</p>
+                                            <p>We create fully equipped healthcare centers to deliver comprehensive
+                                                medical services to communities.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section (7).png"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                        <div class="text-img ">
+                                            <p class="display-5 fw700">School Development</p>
+                                            <p>We build schools with advanced technologies and modern teaching methods
+                                                to provide high quality education to children. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section (9).png"
+                                                alt=""
+                                                class="w-100"/>
+                                        <div class="text-img ">
+                                            <p class="display-5 fw700">Humanitarian Project Development</p>
+                                            <p>We launch innovative relief projects to deliver immediate assistance to
+                                                communities in crisis. 
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="position-relative">
+                                        <img
+                                                src="\theme_indoqat\static\src\imgs\Section (8).png"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                        <div class="text-img ">
+                                            <p class="display-5 fw700">Social Project Development</p>
+                                            <p>We design and implement inclusive social projects that enhance living
+                                                standards and foster community solidarity. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt168 pb168">
+                        <div class="container">
+                            <div class="d-flex justify-content-center align-items-center flex-column w-100 "
+                                 style="gap:96px">
+                                <h2 class=" text-center gray w320">Over <span class="text-primary">100
+                                </span> entities, <span class="text-dark">including startups, government agencies, and
+                                    humanitarian organizations
+                                </span> , rely on us to drive development and create sustainable impact. 
+                                </h2>
+                                <div class="row Text-center justify-content-center gap-3 gy-2">
+                                    <div class="col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos05.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos06.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos03.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos02.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos01.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class=" col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos07.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                    <div class=" col-6 col-md-4 col-lg-2">
+                                        <img
+                                                src="\theme_vehicles\static\src\imgs\Logos04.svg"
+                                                alt=""
+                                                class="w-100"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pb168 pt168">
+                        <div class="container">
+                            <div class="text d-flex justify-content-center align-items-center flex-column w-100 ">
+                                <p class="text-dark display-2 fw700 text-center heading-text w320 ">Ready to
+                                    Start? Collaborate with us now.
+                                </p>
+                                <p class="display-5 gray text-center heading-footer w320">Whether you're
+                                    looking for consultative or humanitarian logistics solutions, we provide the
+                                    capabilities and expertise you need to succeed.
+                                </p>
+                                <button type="button" class=" icon-btn text-bg-primary text-nowrap mt56">
+                                    Contact Us
+                                    <img src="/theme_vehicles/static\src\imgs\Subtract.png"
+                                         alt="icon-btn"
+                                         style="width: 16px; height: 16px; margin-left: 12px;"/>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
